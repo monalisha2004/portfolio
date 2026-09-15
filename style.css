@@ -401,19 +401,11 @@ svg {
 }
 
 .hero-visual img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: min(720px, 120%);
-  max-width: none;
+  width: min(360px, 90%);
+  max-width: 360px;
   height: auto;
-  filter: drop-shadow(0 30px 30px rgba(28, 63, 120, 0.1));
-  transform: translate(-48%, -48%);
-  animation:
-    art-in 700ms 250ms both cubic-bezier(0.22, 1, 0.36, 1),
-    float 8s 1s infinite ease-in-out;
+  transform: translate(48%, -1%);
 }
-
 .hero-reveal {
   opacity: 0;
   animation: reveal-up 520ms both cubic-bezier(0.22, 1, 0.36, 1);
